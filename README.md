@@ -3,7 +3,7 @@
 <br/>
 シンプルな在庫管理アプリです。
 
-### スクリーンショット
+## スクリーンショット
 
 ![main](screenshots/5.png)
 ![main_full](screenshots/1.png)
