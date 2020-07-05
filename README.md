@@ -1,4 +1,5 @@
 # zaiko-kanri-app
+![logo](screenshots/logo.png)
 シンプルな在庫管理アプリです。
 
 ### スクリーンショット
