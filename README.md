@@ -3,6 +3,16 @@
 <br/>
 シンプルな在庫管理アプリです。
 
+## 機能
+
+* SQLite Database
+* SQLiteOpenHelper
+* コンテンツプロバイダー
+* URI Matcher
+* RecyclerView
+* CardView
+* JSONパーシング
+
 ## スクリーンショット
 
 ![main](screenshots/5.png)
