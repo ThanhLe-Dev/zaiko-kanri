@@ -1,0 +1,205 @@
+<resources>
+    <string name="app_name">在庫管理アプリ by ThanhLe</string>
+
+    <!-- Label for detail activity -->
+    <string name="app_product_details">商品の詳細</string>
+
+    <!-- Label for detail menu option to edit the current product[CHAR LIMIT=20]-->
+    <string name="action_edit">編集</string>
+
+    <!-- Label for editor menu option to save product and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">保存</string>
+
+    <!-- Label for editor overflow menu option that deletes the current product [CHAR LIMIT=20] -->
+    <string name="action_delete">削除</string>
+
+    <!-- Label for overflow menu option that inserts fake product data into the app [CHAR LIMIT=20] -->
+    <string name="action_insert_dummy_data">テストデータを追加</string>
+
+    <!-- Label for overflow menu option that deletes all product data in the app [CHAR LIMIT=20] -->
+    <string name="action_delete_all_entries">全商品を削除</string>
+
+    <!-- Title for the activity to add a new product [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_new_product">商品を追加</string>
+
+    <!-- Title for the activity to edit an existing product [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_edit_product">商品を編集</string>
+
+    <!-- Label for product name information in the editor [CHAR LIMIT=30] -->
+    <string name="category_product_name">商品名</string>
+
+    <!-- Label for product title in the editor [CHAR LIMIT=30] -->
+    <string name="category_product_title">商品名</string>
+
+    <!-- Label for product author in the editor [CHAR LIMIT=30] -->
+    <string name="category_product_author">ブランド</string>
+
+    <!-- Label for product publisher in the editor [CHAR LIMIT=30] -->
+    <string name="category_product_publisher">メーカー</string>
+
+    <!-- Label for product isbn in the editor [CHAR LIMIT=30] -->
+    <string name="category_product_isbn">商品ID</string>
+
+    <!-- Label for product price information in the editor [CHAR LIMIT=30] -->
+    <string name="category_price">値段</string>
+
+    <!-- Label for product quantity information in the editor [CHAR LIMIT=30] -->
+    <string name="category_quantity">数量</string>
+
+    <!-- Label for supplier name information in the editor [CHAR LIMIT=30] -->
+    <string name="category_supplier_name">メーカーの社名</string>
+
+    <!-- Label for supplier email information in the editor [CHAR LIMIT=30] -->
+    <string name="category_supplier_email">メーカーのメール</string>
+
+    <!-- Label for supplier phone information in the editor [CHAR LIMIT=30] -->
+    <string name="category_supplier_phone">メーカーの電話番号</string>
+
+    <!-- Label for supplier name information in the detail activity [CHAR LIMIT=20] -->
+    <string name="category_name">名前</string>
+
+    <!-- Label for supplier email information in the detail activity [CHAR LIMIT=20] -->
+    <string name="category_email">メール</string>
+
+    <!-- Label for supplier phone information in the detail activity [CHAR LIMIT=20] -->
+    <string name="category_phone">電話番号</string>
+
+    <!-- Text for the button -->
+    <string name="add_image">画像を追加</string>
+
+    <!-- Toast message in detail activity to ensure that no negative quantities display -->
+    <string name="detail_update_zero_quantity">最低数量は0です。</string>
+
+    <!-- Toast message in editor when new product has been successfully inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_product_successful">保存された</string>
+
+    <!-- Toast message in editor when new product has failed to be inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_product_failed">保存の際エラー発生された</string>
+
+    <!-- Toast message in editor when current product was successfully updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_product_successful">更新された</string>
+
+    <!-- Toast message in editor when current product has failed to be updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_product_failed">更新の際エラー発生された</string>
+
+    <!-- Title text for the empty view [CHAR LIMIT=50] -->
+    <string name="empty_view_title_text">まだ何もありません、、</string>
+
+    <!-- Subtitle text for the empty view that prompts the user to add a product [CHAR LIMIT=50] -->
+    <string name="empty_view_subtitle_text">+ ボータンをタップして \n 新しい商品を追加しましょう。</string>
+
+    <!-- Dialog message when user is leaving editor but hasn't saved changes [CHAR LIMIT=NONE] -->
+    <string name="unsaved_changes_dialog_msg">編集内容を保存せず戻りますか?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">ホームへ戻る</string>
+
+    <!-- Dialog button text for the option to keep editing the current product [CHAR LIMIT=20] -->
+    <string name="keep_editing">編集し続ける</string>
+
+    <!-- Toast message in editor when current product was successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_product_successful">削除された</string>
+
+    <!-- Toast message in editor when current product has failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_product_failed">削除の際エラーが発生された</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current product [CHAR LIMIT=NONE] -->
+    <string name="delete_dialog_msg">この商品を削除しますか?</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current product [CHAR LIMIT=20] -->
+    <string name="delete">削除</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current product [CHAR LIMIT=20] -->
+    <string name="cancel">キャンセル</string>
+
+    <!-- Dialog message to ask the user to confirm deleting all products [CHAR LIMIT=NONE] -->
+    <string name="delete_all_dialog_msg">全商品を削除しますか?</string>
+
+    <!-- Dialog message to ask the user to use ISBN when adding a product [CHAR LIMIT=NONE] -->
+    <string name="add_by_isbn_dialog_msg">商品IDで新規追加しますか?</string>
+
+    <!-- Dialog button text for the option to enter an ISBN -->
+    <string name="enter_an_isbn">商品IDで追加</string>
+
+    <!-- Dialog button text for the option to add a product manually くう-->
+    <string name="add_manually">手動で追加</string>
+
+    <!-- Order email message -->
+    <string name="email_subject">商品発注のご連絡</string>
+    <string name="place_an_order">下記の商品を発注希望です。</string>
+    <string name="period">.</string>
+    <string name="copies_of">( ) の数量です。</string>
+    <string name="best">よろしくお願いいたします。</string>
+    <string name="colon">:</string>
+    <string name="compose_email">メールを作成</string>
+    <string name="mailto">宛先:</string>
+    <string name="n">\n</string>
+    <string name="nn">\n\n</string>
+
+    <!-- Content description of the image -->
+    <string name="content_desc">商品画像</string>
+    <string name="content_desc_email">メール画像</string>
+    <string name="content_desc_phone">電話番号画像</string>
+
+    <!-- String for the supplier text view -->
+    <string name="supplier">メーカー</string>
+
+    <!-- Toast message in detail activity when the user granted phone call permission -->
+    <string name="permission_granted">許可確認できた。</string>
+    <!-- Toast message in detail activity when the user denied phone call permission -->
+    <string name="permission_denied">許可拒否された。</string>
+
+    <!-- Toast message for the input validation in editor activity -->
+    <string name="empty_product_name">商品名ｋを必ず入力してください。</string>
+    <string name="empty_product_author">ブランドを必ず入力してください。</string>
+    <string name="empty_product_isbn">商品IDを必ず入力してください。</string>
+    <string name="empty_product_price">値段を必ず入力してください。</string>
+    <string name="empty_product_quantity">数量を必ず入力してください。</string>
+    <string name="empty_supplier_name">名前を必ず入力してください。</string>
+    <string name="empty_supplier_phone">電話番号を必ず入力してください。</string>
+
+    <!-- Toast message when a user do not enter the 13 digit ISBN in MainActivity -->
+    <string name="enter_13_digit_isbn">13桁の商品IDを入力してください。</string>
+
+    <!--Text input layout error message -->
+    <string name="error_product_name">商品名の形式が正しくありません。</string>
+    <string name="error_product_author">ブランドの形式が正しくありません。</string>
+    <string name="error_product_isbn">商品IDの形式が正しくありません。</string>
+    <string name="error_product_price">値段の形式が正しくありません。</string>
+    <string name="error_product_quantity">数量の形式が正しくありません。</string>
+    <string name="error_supplier_name">メーカーの名前の形式が正しくありません。</string>
+    <string name="error_supplier_phone">メーカーの電話番号の形式が正しくありません。</string>
+
+    <!-- Text of the sale button -->
+    <string name="sell">販売</string>
+    <string name="sold_out">売り切れ</string>
+
+    <!-- String for the Extra key name -->
+    <string name="title">商品名</string>
+    <string name="author">ブランド</string>
+    <string name="isbn">商品ID</string>
+    <string name="publisher">メーカー</string>
+    <string name="isbn_in_a_dialog">商品IDのダイアログ</string>
+
+    <!-- Title for the intent in the pickImageFromGallery -->
+    <string name="select_picture">画像を選択</string>
+    <!-- image type in the pickImageFromGallery -->
+    <string name="image_all_format">画像/*</string>
+
+    <!-- String for the phone intent -->
+    <string name="tel_colon">電話番号:</string>
+
+    <!-- String for the query "isbn:" -->
+    <string name="query_isbn">商品ID:</string>
+    <!-- String for the query parameter -->
+    <string name="q">q</string>
+
+    <string name="no_matches_found">商品IDが見つかりません。</string>
+    <string name="no_internet_connection">オフラインの状態です。インタネットの接続を確認してください。
+        connection.</string>
+
+    <!-- Intent title -->
+    <string name="make_a_phone_call">この番号へ電話します</string>
+
+    <string name="currency">￥</string>
+</resources>
